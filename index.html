@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pisang Lumer - Nikmat & Lezat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <img src="img/logo3.jpg" alt="Logo Pisang Lumer">
+            <h1>Pisang Lumer</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="menu-icon">&#9776;</div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Nikmati Pisang Lumer Terbaik</h2>
+        <p>Lezatnya pisang dengan topping lumer yang tak terlupakan</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h3>Tentang Pisang Lumer</h3>
+        <p>Pisang lumer kami dibuat dari bahan-bahan berkualitas, dengan variasi topping yang menggugah selera! Setiap gigitan memberikan sensasi manis, gurih, dan tekstur lembut yang memanjakan lidah Anda.</p>
+    </section>
+
+    <!-- Product Section -->
+    <section id="products">
+        <h3>Varian Pisang Lumer</h3>
+        <div class="product-card">
+            <img src="img/ps.jpg" alt="Pisang Lumer Coklat">
+            <h4>Pisang Lumer Coklat</h4>
+            <p>IDR 20.000</p>
+            <p>Manisnya coklat yang lumer, sangat cocok untuk pecinta coklat!</p>
+        </div>
+        <div class="product-card">
+            <img src="img/ps2.jpg" alt="Pisang Lumer Keju">
+            <h4>Pisang Lumer Keju</h4>
+            <p>IDR 20.000</p>
+            <p>Gurihnya keju berpadu sempurna dengan pisang yang lembut.</p>
+        </div>
+        <div class="product-card">
+            <img src="img/ps3.jpg" alt="Pisang Lumer Matcha">
+            <h4>Pisang Lumer Matcha</h4>
+            <p>IDR 20.000</p>
+            <p>Matcha yang segar dengan sentuhan rasa manis pisang yang sempurna.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>Hubungi kami di Instagram: <a href="https://instagram.com/hlsmiraa">hlsmiraa</a></p>
+        <p>Hubungi kami di WhatsApp: <a href="https://WhatsApp.com/hlsmiraa">082163875219</a></p>
+    </footer>
+
+    <script>
+        // Dropdown menu for mobile
+        const menuIcon = document.querySelector('.menu-icon');
+        const nav = document.querySelector('nav');
+
+        menuIcon.addEventListener('click', () => {
+            nav.classList.toggle('nav-active');
+        });
+    </script>
+</body>
+</html>
